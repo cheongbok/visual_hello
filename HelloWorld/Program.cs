@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 // This example code shows how you could implement the required main function for a 
 // Console UWP Application. You can replace all the code inside Main with your own custom code.
@@ -13,19 +14,7 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            if (args.Length == 0)
-            {
-                Console.WriteLine("Hello - no args");
-            }
-            else
-            {
-                for (int i = 0; i < args.Length; i++)
-                {
-                    Console.WriteLine($"arg[{i}] = {args[i]}");
-                }
-            }
-            Console.WriteLine("Press a key to continue: ");
-            Console.ReadLine();
+            Console.WriteLine("Hello World");
         }
     }
 }
