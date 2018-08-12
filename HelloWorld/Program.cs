@@ -16,6 +16,7 @@ namespace HelloWorld
         {
             Console.WriteLine("Hello World");
             Console.WriteLine("World is mine");
+            Console.WriteLine("Earth is mine");
         }
     }
 }
